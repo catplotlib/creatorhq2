@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { ethers } from "ethers";
 const Web3 = require("web3");
 
 const Metamask = () => {
@@ -16,6 +17,23 @@ const Metamask = () => {
     setLoggedIn(false);
     return false;
   };
+  useEffect(() => {
+    const { ethereum } = window;
+    if (ethereum) {
+      var provider = new ethers.providers.Web3Provider(ethereum);
+    }
+
+    const isMetaMaskConnected = async () => {
+      const accounts = await provider.listAccounts();
+      return accounts.length > 0;
+    };
+
+    isMetaMaskConnected().then((connected) => {
+      if (connected) {
+        setLoggedIn(true);
+      }
+    });
+  }, [loggedIn]);
 
   return (
     <div className="btn-container">
