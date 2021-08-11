@@ -20,11 +20,11 @@ const Metamask = () => {
   return (
     <div className="btn-container">
       {loggedIn ? (
-        <h4>Connected to Metamask</h4>
+        <h4 className="text-white mt-8">Connected to Metamask</h4>
       ) : (
         <button
           onClick={ethEnabled}
-          className=" mt-4 md:mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
+          className="mt-4 md:mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
         >
           Connect to Metamask
         </button>

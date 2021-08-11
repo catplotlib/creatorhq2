@@ -86,7 +86,7 @@ const AsyncSearchBar = () => {
         filterOptions={handleFilter}
         value=""
         name="Workshop"
-        placeholder="Choose a workshop"
+        placeholder="Search for a Creator"
         search
         onChange={handleChange}
       />
