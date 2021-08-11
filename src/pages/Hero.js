@@ -1,8 +1,7 @@
 import Card from "../Components/Card";
 import AsyncSearchBar from "../Components/AsyncSearchBar";
-import { useState } from "react";
+
 function Hero() {
-  const [collabs, setCollabs] = useState("");
   return (
     <div className="container mx-auto px-12 md:px-4">
       <div className="flex w-full flex-col items-center mt-32 min-h-screen">
@@ -11,7 +10,7 @@ function Hero() {
         </h1>
 
         <div className="flex flex-row">
-          <AsyncSearchBar setCollabs={setCollabs} />
+          <AsyncSearchBar />
         </div>
         <div className="mt-28">
           <h1 className="text-3xl md:text-4xl text-white">

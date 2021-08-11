@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import SelectSearch from "react-select-search";
 import "../styles.css";
-import SingleCreator from "../pages/SingleCreator";
 import { Link } from "react-router-dom";
 
 const AsyncSearchBar = () => {
