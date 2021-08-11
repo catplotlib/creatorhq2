@@ -1,6 +1,6 @@
 import Card from "../Components/Card";
 import AsyncSearchBar from "../Components/AsyncSearchBar";
-
+import Metamask from "../Components/Metamask";
 function Hero() {
   return (
     <div className="container mx-auto px-12 md:px-4">
@@ -8,7 +8,7 @@ function Hero() {
         <h1 className="text-white text-3xl md:text-4xl">
           Support your Favourite Creators!
         </h1>
-
+        <Metamask />
         <div className="flex flex-row">
           <AsyncSearchBar />
         </div>
