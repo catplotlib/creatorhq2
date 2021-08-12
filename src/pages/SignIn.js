@@ -35,8 +35,8 @@ const SignIn = () => {
         </div>
         <div class="flex items-center justify-between">
           <button
-            class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded"
-            type="button"
+            type="submit"
+            className="w-1/2 text-center py-3 bg-blue-500 hover:bg-blue-700 text-white font-bold my-1 px-4 py-2 rounded"
           >
             Sign In
           </button>
