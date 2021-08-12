@@ -90,7 +90,7 @@ const AsyncSearchBar = () => {
         search
         onChange={handleChange}
       />
-      <Link to={`/${username}`}>
+      <Link to={`/user/${username}`}>
         <button
           type="submit"
           className="ml-20 md:ml-14 mt-4 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"

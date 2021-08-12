@@ -54,7 +54,7 @@ const SingleCreator = () => {
       }
     });
   });
-  console.log(currentUser);
+
   return (
     <div className="container mx-auto px-12 md:px-8">
       <div className="flex w-full flex-col items-center mt-32 min-h-screen text-white">

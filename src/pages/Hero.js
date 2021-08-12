@@ -17,7 +17,7 @@ function Hero() {
             Some of our Top Creators!
           </h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 mt-12 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 mt-12 gap-8 mb-24">
           <Card />
           <Card />
           <Card />
