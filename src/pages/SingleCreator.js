@@ -57,7 +57,7 @@ const SingleCreator = () => {
 
   return (
     <div className="container mx-auto px-12 md:px-8">
-      <div className="flex w-full flex-col items-center mt-32 min-h-screen text-white">
+      <div className="flex w-full flex-col items-center mt-16 md:mt-32 min-h-screen text-white">
         <div className="flex flex-row ">
           <img
             className="rounded-full h-24 w-24 flex items-center justify-center"

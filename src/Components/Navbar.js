@@ -49,7 +49,7 @@ const Navbar = () => {
                 </Link>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item my-4 md:my-0">
                 <Link
                   to="/signup"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
